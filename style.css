@@ -29,13 +29,13 @@
   text-align: center;
 }
 
-.header__link, .header__logo {
+.nav__link, .nav__logo {
   text-decoration: none;
   font-size: 1.5rem;
   color: var(--off-white);
 }
 
-.header__link:hover, .header__logo:hover {
+.nav__link:hover, .nav__logo:hover {
   text-decoration: underline;
 }
 
@@ -59,11 +59,11 @@
   display: flex;
 }
 
-.header__link:not(:first-of-type), .header__logo:not(:first-of-type) {
+.nav__link:not(:first-of-type), .nav__logo:not(:first-of-type) {
   margin-left: 24px;
 }
 
-.header__link.logo, .header__logo.logo {
+.nav__link.logo, .nav__logo.logo {
   margin-right: auto;
   text-transform: uppercase;
 }
